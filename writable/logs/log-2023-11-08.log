@@ -1,0 +1,301 @@
+CRITICAL - 2023-11-08 03:40:51 --> Invalid file: "admin/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/index', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('admin/index')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:58:10 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:58:22 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:59:05 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:59:22 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:59:24 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:01:35 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:24 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:26 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:54 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:56 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:56 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:57 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:02:58 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:03:13 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 04:03:15 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:04:23 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:04:45 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:04:47 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:10:18 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:12:11 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:12:13 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:13:54 --> Class "App\Models\RequestedTable" not found
+in APPPATH\Controllers\AdminController.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->home()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+ERROR - 2023-11-08 03:31:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `requestedTable`' at line 1 in C:\xampp\htdocs\RequestandInquiry\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RequestandInquiry\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\RequestandInquiry\app\Models\RequestTable.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\RequestandInquiry\app\Controllers\AdminController.php(17): App\Models\RequestTable->request_all()
+#6 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(934): App\Controllers\AdminController->countRequest()
+#7 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RequestandInquiry\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\RequestandInquiry\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-08 03:31:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `requestedTable`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS *
+FROM `requestedTable`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS *
+FROM `requestedTable`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS *
+FROM `requestedTable`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS *
+FROM `requestedTable`', [], false)
+ 5 APPPATH\Models\RequestTable.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(17): App\Models\RequestTable->request_all()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->countRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+ERROR - 2023-11-08 03:34:58 --> mysqli_sql_exception: Unknown column 'request' in 'field list' in C:\xampp\htdocs\RequestandInquiry\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RequestandInquiry\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`r...', 0)
+#1 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`r...')
+#2 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`r...')
+#3 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`r...', Array, false)
+#4 C:\xampp\htdocs\RequestandInquiry\app\Models\RequestTable.php(35): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\RequestandInquiry\app\Controllers\AdminController.php(17): App\Models\RequestTable->request_all()
+#6 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(934): App\Controllers\AdminController->countRequest()
+#7 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\RequestandInquiry\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\RequestandInquiry\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-08 03:34:58 --> Unknown column 'request' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(`request`) AS `request`
+FROM `requestedTable`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(`request`) AS `request`
+FROM `requestedTable`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(`request`) AS `request`
+FROM `requestedTable`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(`request`) AS `request`
+FROM `requestedTable`', [], false)
+ 5 APPPATH\Models\RequestTable.php(35): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\AdminController.php(17): App\Models\RequestTable->request_all()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->countRequest()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+ERROR - 2023-11-08 03:07:27 --> mysqli_sql_exception: Column 'document_name' cannot be null in C:\xampp\htdocs\RequestandInquiry\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\RequestandInquiry\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `do...', 0)
+#1 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\RequestandInquiry\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\RequestandInquiry\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\RequestandInquiry\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\RequestandInquiry\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\RequestandInquiry\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\RequestandInquiry\app\Controllers\AdminController.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(934): App\Controllers\AdminController->storeDocument()
+#10 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#11 C:\xampp\htdocs\RequestandInquiry\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\RequestandInquiry\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\RequestandInquiry\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2023-11-08 03:07:27 --> Column 'document_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `document_form` (`document_name`, `description`) VALUES (NULL, \'jajajajajajaj\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `document_form` (`document_name`, `description`) VALUES (NULL, \'jajajajajajaj\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `document_form` (`document_name`, `description`) VALUES (NULL, \'jajajajajajaj\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `document_form` (`document_name`, `description`) VALUES (:document_name:, :description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\AdminController.php(29): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AdminController->storeDocument()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:55:05 --> Attempt to read property "count" on array
+in APPPATH\Controllers\UserController.php on line 19.
+ 1 APPPATH\Controllers\UserController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "count" on array', 'C:\\xampp\\htdocs\\RequestandInquiry\\app\\Controllers\\UserController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:54:46 --> Undefined array key "password"
+in APPPATH\Controllers\UserController.php on line 55.
+ 1 APPPATH\Controllers\UserController.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'C:\\xampp\\htdocs\\RequestandInquiry\\app\\Controllers\\UserController.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->sign_in()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:41:50 --> Allowed fields must be specified for model: "App\Models\RequestTable"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RequestTable')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\UserController.php(118): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->store_request()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
+CRITICAL - 2023-11-08 03:44:16 --> Allowed fields must be specified for model: "App\Models\RequestTable"
+in SYSTEMPATH\BaseModel.php on line 1242.
+ 1 SYSTEMPATH\BaseModel.php(1242): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\RequestTable')
+ 2 SYSTEMPATH\BaseModel.php(757): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\UserController.php(118): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->store_request()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\RequestandInquiry\\public\\index.php')
